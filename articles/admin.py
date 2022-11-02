@@ -12,5 +12,6 @@ class ArticleAdmin(admin.ModelAdmin):
     inlines = [
         CommentInline,
     ]
+
 admin.site.register(Article, ArticleAdmin)
 admin.site.register(Comment)
